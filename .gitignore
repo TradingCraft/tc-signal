@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual environments
+.venv
+.env.local
+*.local
+
+# Config files that may contain credentials — only dev.env (no real creds) is
+# committed; prod.env and any .local overrides must never be checked in.
+cfg/prod.env
+
+# IDE / Editor
+.vscode/
+*.swp
+*.swo
+*~
+**/*~
+
+# Logs
+*.log
+logs/
+
+# Database / Local data
+*.db
+*.sqlite
+*.sqlite3
+data/
+dump/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code — local permission overrides contain machine-specific paths
+.claude/settings.local.json
+
+# Misc
+.codex
